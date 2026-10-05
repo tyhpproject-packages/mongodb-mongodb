@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/mongodb-mongodb",
+    "description": "Tyhp type definitions for mongodb/mongodb 2.4.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.4.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/mongodb-mongodb-impl": "~2.4.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/mongodb-mongodb-impl"
+        }
+    }
+}
